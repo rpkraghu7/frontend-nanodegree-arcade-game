@@ -49,7 +49,7 @@
 
   //UPDATE FUNCTION OF PLAYER
   Player.prototype.update = function() {
-      if (this.y === -20)
+      if (this.y <0)
       {
         this.y = 400;
       }
