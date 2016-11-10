@@ -29,8 +29,7 @@
       ctx.drawImage(Resources.get(this.sprite), this.x, this.y);
       //ENEMY LOOPING
       if(this.x>500) {
-        this.x=0;
-        ctx.drawImage(Resources.get(this.sprite),this.x,this.y);
+      this.x=0;
       }
   };
 
@@ -64,8 +63,8 @@
 
   //KEYCONTROLS OF PLAYER
   Player.prototype.handleInput = function(keys) {
-        var posy = 70;
-        var posx = 120;
+        var posy = 83;
+        var posx = 101;
 
   //LOOP FOR MOVEMENT OF PLAYER
       if (keys === 'left' && this.x>0 ) {
